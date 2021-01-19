@@ -1,12 +1,86 @@
+/* Global CSS */
+body {
+  font-family: "Merriweather", serif;
+  font-size: 16px;
+  line-height: 1;
+}
+
+textarea {
+  background: transparent;
+  width: 100%;
+  min-height: 5rem;
+  border: none;
+  resize: none;
+  color: #000000;
+  border-left: 1px solid black;
+  padding: 10px;
+  color: black;
+}
+
+/* Class CSS */
+
+.description {
+  white-space: pre-wrap;
+}
+
+.disabled {
+  color: black;
+  background-color: #f0f0f0;
+  border-color: #787878;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
 .display-3 {
-    font-family: 'Merriweather', serif; 
-    letter-spacing: 20px;   
-    text-align: center; 
+  font-family: "Merriweather", serif;
+  letter-spacing: 20px;
+  text-align: center;
+}
+
+.future {
+  background-color: #77dd77;
+}
+
+.hour {
+  background-color: #ffffff;
+  color: #000000;
+  border-top: 1px dashed #000000;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+  color: black;
+  border-radius: 0;
+  border-bottom: 10px solid black;
 }
 
 .lead {
-    font-family: 'Playfair Display', serif; 
-    font-style: italic; 
-    letter-spacing: 8px;
-    text-align: center; 
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  letter-spacing: 8px;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.present {
+  background-color: #ff6961;
+}
+
+.row {
+  margin-bottom: 1.25rem;
+}
+
+.save-button {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #06aed5;
+  color: white;
+  display: block;
+  text-align: center;
+}
+
+.save-button:hover {
+  background-color: #03576b;
 }
