@@ -49,10 +49,11 @@ textarea {
 
 .jumbotron {
   text-align: center;
-  background-color: transparent;
-  color: black;
+  background-color: #19456b;
+  color: white;
   border-radius: 0;
   border-bottom: 10px solid black;
+  border-top: 10px solid black;
 }
 
 .lead {
@@ -64,7 +65,7 @@ textarea {
 }
 
 .present {
-  background-color: #ff6961;
+  background-color: #ffde7d;
 }
 
 .row {
@@ -75,10 +76,11 @@ textarea {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06aed5;
+  background-color: #393e46;
   color: white;
   display: block;
   text-align: center;
+  padding: 30px;
 }
 
 .save-button:hover {
