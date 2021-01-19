@@ -1,0 +1,12 @@
+.display-3 {
+    font-family: 'Merriweather', serif; 
+    letter-spacing: 20px;   
+    text-align: center; 
+}
+
+.lead {
+    font-family: 'Playfair Display', serif; 
+    font-style: italic; 
+    letter-spacing: 8px;
+    text-align: center; 
+}
